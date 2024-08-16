@@ -1,0 +1,184 @@
+body {
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: aliceblue;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+  }
+
+  .header {
+    background-color: rgb(233, 81, 172);
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .header .info {
+    margin: 2px 5px;
+  }
+
+  .header h2 {
+    margin: 0%;
+    font-weight: 700;
+    color: black;
+  }
+
+  .header p {
+    margin: 0%;
+    font-weight: 700;
+    font-size: 25px;
+    color:aliceblue;
+  }
+
+  .header .user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .header .user img {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 30%;
+  }
+
+  .tasks {
+    padding: 10vh;
+  }
+
+  .task {
+    background-color:  rgb(195, 105, 159);
+    border: 2px solid gainsboro;
+    box-shadow: 0 2px 5px black;
+    padding: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .task .icon {
+    width: 15vh;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20% 40% 20% 10%;
+    background-color: aliceblue;
+    margin-right: 15px;
+  }
+
+  .task .icon img {
+    width: 10vh;
+    height: 10vh;
+  }
+
+  .task .info {
+    flex: 1;
+  }
+
+  .task .info h3 {
+    margin: 0%;
+    font-size: 1.7rem;
+    font-weight: 100;
+  }
+
+  .task .info p {
+    margin: 5px 0 0 0;
+    font-size: 1rem;
+    color: rgb(81, 16, 16);
+    font-weight: 300;
+  }
+
+  .add-task {
+    position: fixed;
+    bottom: 20px;
+    right: 400px;
+    bottom: 100px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:  rgb(233, 81, 172);;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 0 2px 5px black;
+  }
+
+  .content-div .input_text {
+    width: 300px;
+    font-size: 15px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+    height: 50px;
+  }
+
+  .content-div .add_button {
+    width: 70px;
+    font-size: 15px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .content_div .second_box {
+    height: 298px;
+    width: 478px;
+    border-radius: 5px;
+    background-color: rgba(255, 245, 245, 0.817);
+    color: black;
+    margin: 10px 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+  }
+
+  .content_div .second_box li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .content_div .second_box li:last-child {
+    border-bottom: none;
+  }
+
+  .Delete_btn {
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgb(103, 0, 43);
+    color: white;
+    cursor: pointer;
+  }
+
+  .Edit_btn {
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgb(103, 0, 43);
+    color: white;
+    cursor: pointer;
+  }
+
+
+

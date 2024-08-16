@@ -1,0 +1,48 @@
+# TO-DO List Web Application
+
+This project is a **TO-DO List** web application that allows users to manage their tasks efficiently. Users can log in, create multiple to-do lists under different categories such as Personal, Work, SpecialDay, Gym Time, Study, Health Care, Finance, and Shopping.
+
+## Features
+
+- **Login Page:** Users can log in with a username, email, and password.
+- **Multiple Task Categories:** Tasks are categorized into different sections like Personal, Work, and more.
+- **Add, Edit, and Delete Tasks:** Users can easily add, edit, and delete tasks within each category.
+- **Dynamic Task Count:** Displays the total number of tasks within each category and updates dynamically.
+- **Responsive Design:** The application is designed to work well on various screen sizes.
+
+## Technologies Used
+
+- **HTML/CSS:** Structure and design of the application.
+- **JavaScript (jQuery):** Interactivity and task management logic.
+- **Font Awesome:** Icons for task categories.
+- **Google Fonts:** Roboto font for a clean and modern look.
+
+## Setup Instructions
+
+- downlode on your desk 
+- unzip thi file 
+- open Login TODO.html in your browser
+- login with your username and password and email Id
+- start managing your tasks
+- Add a new task by entering the task name and clicking "Add".
+- Edit an existing task by clicking the "Edit" button.
+- Delete a task by clicking the "Delete" button.
+- The total number of tasks for each category is displayed.
+
+### Future Enhancements
+
+- User Registration: Add a registration page for new users.
+- Backend Integration: Connect the application to a backend server to handle authentication and task storage.
+- Database: Use a database like MongoDB or Firebase to persist user tasks.
+
+### Prerequisites
+
+- A web browser (Google Chrome, Firefox, etc.)
+- Basic knowledge of HTML, CSS, and JavaScript
+- No additional dependencies are required
+
+### How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/codewithkittu/todo-list-app.git

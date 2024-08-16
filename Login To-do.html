@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-Do Log-in</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./Login To-do.css">
+</head>
+
+<body style="background-color: #3973e7;">
+    <div class="login-page">
+        <div class="form">
+            <form class="loginform" id="loginform">
+                <input type="text" placeholder="username" id="username" required />
+                <input type="email" placeholder="email-id" id="email" required />
+                <input type="password" placeholder="password" id="password" required />
+                <button type="submit">Login</button>
+                <p class="message">Not registered? <a href="#">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+
+        document.getElementById('loginform').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            var username = document.getElementById('username').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            if (username && email && password ) {
+                alert('Login successful!');
+                window.location.href = 'todo.html';
+            } else {
+                alert('Invalid email or password. Please try again.');
+            }
+        });
+    </script>
+</body>
+
+</html>
